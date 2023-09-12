@@ -1,8 +1,8 @@
 const nodemailer = require("nodemailer");
 
 const transport = nodemailer.createTransport({
-    host: 'http://imap.secureserver.net/',
-    port: 993,
+    host: 'smtpout.secureserver.net',
+    port: 465,
     secure: false,
     auth:{
 
