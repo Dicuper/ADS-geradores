@@ -74,22 +74,22 @@
           <h2>Envie sua mensagem</h2>
           <form action="https://api.staticforms.xyz/submit" method="post">
             <input type="hidden" name="accessKey" value="1533fcde-873e-4c09-ba5a-77f6aeeb5d37">
-            <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+            <input type="hidden" name="redirectTo" value="contato.html">
             <div class="form-group mb-2">
               <label for="InputName">Nome</label>
-              <input type="text" class="form-control" name="name" id="InputName" placeholder="">
+              <input type="text" class="form-control" name="name" id="InputName" required placeholder="">
             </div>
             <div class="form-group mb-2">
               <label for="InputMail">Endereço de email</label>
-              <input type="email" class="form-control" name="email" id="InputMail" placeholder="">
+              <input type="email" class="form-control" name="email" id="InputMail"  required placeholder="">
             </div>
             <div class="form-group mb-2">
               <label for="InputPhone">Telefone</label>
-              <input type="number" class="form-control" name="phone" id="InputPhone" placeholder="">
+              <input type="number" class="form-control" name="phone" id="InputPhone" required placeholder="">
             </div>
             <div class="form-group mb-2">
               <label for="InputMessage">Mensagem do e-mail</label>
-              <textarea class="form-control" name="message" id="InputMessage" rows="3"></textarea>
+              <textarea class="form-control" name="message" id="InputMessage" required rows="3"></textarea>
             </div>
             <div class="text-center">
                 <button class="btn btn-primary mb-3 mt-4 btn-lg" type="submit">Enviar mensagem</button>
